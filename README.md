@@ -30,4 +30,4 @@ Nesta fase, foi construída a estrutura base do site utilizando **HTML5 puro**, 
 
 **Emerson Ricardo da Silva Nobles**
 Curso: Análise e Desenvolvimento de Sistemas na PUC
-Fase 1 do projeto, 2024
+Fase 1 do projeto, 2026
