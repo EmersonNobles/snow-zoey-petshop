@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="300" height="200">
+  <!-- Fundo -->
+  <rect width="300" height="200" fill="#fff8f0"/>
+
+  <!-- Corda trançada - fios vermelhos e azuis -->
+  <!-- Fio 1 (vermelho) -->
+  <path d="M60 80 C90 60, 120 100, 150 80 C180 60, 210 100, 240 80" stroke="#d43030" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <!-- Fio 2 (azul) -->
+  <path d="M60 100 C90 120, 120 80, 150 100 C180 120, 210 80, 240 100" stroke="#2255cc" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <!-- Fio 3 (amarelo) -->
+  <path d="M60 90 C90 90, 120 90, 150 90 C180 90, 210 90, 240 90" stroke="#e8c000" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Nó esquerdo -->
+  <circle cx="60" cy="90" r="22" fill="#c8a060"/>
+  <circle cx="60" cy="90" r="15" fill="#d4b070"/>
+  <path d="M50 83 Q60 75, 70 83 Q60 95, 50 83" fill="#b89050"/>
+  <path d="M50 97 Q60 105, 70 97 Q60 85, 50 97" fill="#b89050"/>
+
+  <!-- Nó direito -->
+  <circle cx="240" cy="90" r="22" fill="#c8a060"/>
+  <circle cx="240" cy="90" r="15" fill="#d4b070"/>
+  <path d="M230 83 Q240 75, 250 83 Q240 95, 230 83" fill="#b89050"/>
+  <path d="M230 97 Q240 105, 250 97 Q240 85, 230 97" fill="#b89050"/>
+
+  <!-- Label -->
+  <text x="150" y="150" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#d43030" text-anchor="middle">Brinquedo de Corda</text>
+  <text x="150" y="168" font-family="Arial, sans-serif" font-size="9" fill="#888888" text-anchor="middle">Para cães de todos os tamanhos</text>
+</svg>

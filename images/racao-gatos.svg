@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="300" height="200">
+  <!-- Fundo -->
+  <rect width="300" height="200" fill="#fff5f0"/>
+
+  <!-- Saco de ração -->
+  <rect x="90" y="30" width="120" height="150" rx="8" fill="#8b1a8b"/>
+  <rect x="100" y="40" width="100" height="130" rx="6" fill="#a020a0"/>
+  <!-- Lacre topo -->
+  <rect x="90" y="30" width="120" height="20" rx="4" fill="#6b0a6b"/>
+  <!-- Faixa decorativa -->
+  <rect x="100" y="88" width="100" height="45" rx="4" fill="#ffffff" opacity="0.9"/>
+
+  <!-- Silhueta gato (orelhinhas) -->
+  <ellipse cx="150" cy="68" rx="18" ry="14" fill="#ffffff" opacity="0.85"/>
+  <!-- orelhas pontudas -->
+  <polygon points="136,60 131,45 143,56" fill="#ffffff" opacity="0.85"/>
+  <polygon points="164,60 169,45 157,56" fill="#ffffff" opacity="0.85"/>
+  <!-- rabo curvo -->
+  <path d="M168 75 Q185 65, 182 50" stroke="#ffffff" stroke-width="3" fill="none" opacity="0.85"/>
+
+  <!-- Texto na embalagem -->
+  <text x="150" y="106" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#8b1a8b" text-anchor="middle">WHISKAS</text>
+  <text x="150" y="120" font-family="Arial, sans-serif" font-size="8" fill="#555555" text-anchor="middle">Sabor Atum 3kg</text>
+
+  <!-- Label inferior -->
+  <text x="150" y="188" font-family="Arial, sans-serif" font-size="9" fill="#888888" text-anchor="middle">Ração para Gatos</text>
+</svg>
