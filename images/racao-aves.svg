@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="300" height="200">
+  <!-- Fundo -->
+  <rect width="300" height="200" fill="#f0fff4"/>
+
+  <!-- Embalagem (menor, 500g) -->
+  <rect x="105" y="35" width="90" height="140" rx="8" fill="#1a7a1a"/>
+  <rect x="113" y="44" width="74" height="122" rx="5" fill="#22a022"/>
+  <!-- Lacre topo -->
+  <rect x="105" y="35" width="90" height="18" rx="5" fill="#106010"/>
+
+  <!-- Silhueta pássaro -->
+  <ellipse cx="150" cy="72" rx="16" ry="12" fill="#ffffff" opacity="0.85"/>
+  <!-- cabeça -->
+  <circle cx="162" cy="63" rx="10" ry="9" fill="#ffffff" opacity="0.85"/>
+  <!-- bico -->
+  <polygon points="170,63 178,61 170,67" fill="#e8a000" opacity="0.9"/>
+  <!-- asinha -->
+  <path d="M135 72 Q125 62, 130 55" stroke="#ffffff" stroke-width="3" fill="none" opacity="0.85"/>
+  <!-- cauda -->
+  <path d="M134 75 Q120 80, 118 90" stroke="#ffffff" stroke-width="3" fill="none" opacity="0.85"/>
+
+  <!-- Faixa com texto -->
+  <rect x="113" y="100" width="74" height="38" rx="4" fill="#ffffff" opacity="0.9"/>
+  <text x="150" y="116" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#1a7a1a" text-anchor="middle">MEGAZOO</text>
+  <text x="150" y="128" font-family="Arial, sans-serif" font-size="7" fill="#444444" text-anchor="middle">Pássaros 500g</text>
+
+  <!-- Sementes decorativas -->
+  <ellipse cx="135" cy="150" rx="4" ry="2" fill="#d4b040" opacity="0.7"/>
+  <ellipse cx="150" cy="155" rx="4" ry="2" fill="#d4b040" opacity="0.7"/>
+  <ellipse cx="165" cy="150" rx="4" ry="2" fill="#d4b040" opacity="0.7"/>
+
+  <!-- Label inferior -->
+  <text x="150" y="187" font-family="Arial, sans-serif" font-size="9" fill="#888888" text-anchor="middle">Ração para Aves</text>
+</svg>

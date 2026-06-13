@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="300" height="200">
+  <!-- Fundo -->
+  <rect width="300" height="200" fill="#f0f4ff"/>
+
+  <!-- Saco de ração -->
+  <rect x="90" y="30" width="120" height="150" rx="8" fill="#d45c00"/>
+  <rect x="100" y="40" width="100" height="130" rx="6" fill="#e8720a"/>
+  <!-- Lacre topo -->
+  <rect x="90" y="30" width="120" height="20" rx="4" fill="#b84500"/>
+  <!-- Faixa decorativa -->
+  <rect x="100" y="90" width="100" height="40" rx="4" fill="#ffffff" opacity="0.9"/>
+  <!-- Texto na embalagem -->
+  <text x="150" y="108" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#b84500" text-anchor="middle">PEDIGREE</text>
+  <text x="150" y="122" font-family="Arial, sans-serif" font-size="8" fill="#555555" text-anchor="middle">Adulto 15kg</text>
+
+  <!-- Silhueta cão -->
+  <ellipse cx="150" cy="68" rx="22" ry="18" fill="#ffffff" opacity="0.8"/>
+  <!-- cabeça -->
+  <ellipse cx="163" cy="58" rx="12" ry="11" fill="#ffffff" opacity="0.8"/>
+  <!-- orelha -->
+  <ellipse cx="170" cy="52" rx="5" ry="8" fill="#ffffff" opacity="0.8" transform="rotate(15 170 52)"/>
+  <!-- rabo -->
+  <path d="M128 68 Q115 55 118 45" stroke="#ffffff" stroke-width="3" fill="none" opacity="0.8"/>
+
+  <!-- Label inferior -->
+  <text x="150" y="188" font-family="Arial, sans-serif" font-size="9" fill="#888888" text-anchor="middle">Ração para Cães</text>
+</svg>
