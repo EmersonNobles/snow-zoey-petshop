@@ -4,65 +4,122 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Snow e Zoey Petshop: aves</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
 
-    <!-- HEADER -->
-    <header>
-      <h1>Snow e Zoey Petshop</h1>
-      <p>cuidando do seu pet com amor e dedicação</p>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="caes.html">Cães</a></li>
-          <li><a href="gatos.html">Gatos</a></li>
-          <li><a href="aves.html" aria-current="page">Aves</a></li>
-          <li><a href="servicos.html">Serviços</a></li>
-          <li><a href="ajuda.html">Ajuda</a></li>
-        </ul>
-      </nav>
-    </header>
+    <nav class="navbar navbar-expand-lg navbar-petshop" aria-label="Menu de navegação principal">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+          <img src="images/logo.svg" alt="Logo Snow e Zoey Petshop" class="logo-header">
+          <span>Snow e Zoey Petshop</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navMenu" aria-controls="navMenu"
+                aria-expanded="false" aria-label="Abrir menu de navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="caes.html">Cães</a></li>
+            <li class="nav-item"><a class="nav-link" href="gatos.html">Gatos</a></li>
+            <li class="nav-item"><a class="nav-link" href="aves.html" aria-current="page">Aves</a></li>
+            <li class="nav-item"><a class="nav-link" href="servicos.html">Serviços</a></li>
+            <li class="nav-item"><a class="nav-link" href="cadastro.html">Cadastro</a></li>
+            <li class="nav-item"><a class="nav-link" href="agendamento.html">Agendamento</a></li>
+            <li class="nav-item"><a class="nav-link" href="ajuda.html">Ajuda</a></li>
+          </ul>
+          <span id="relogio-header" class="ms-3" aria-label="Horário atual"></span>
+        </div>
+      </div>
+    </nav>
 
-    <!-- MAIN -->
-    <main>
-      <h2>Produtos para Aves</h2>
-      <p>Tudo para deixar seu pássaro saudável, feliz e bem cuidado!</p>
+    <main class="container my-5">
+      <h1 class="mb-2">Produtos para Aves</h1>
+      <p class="lead">Tudo para deixar seu pássaro saudável, feliz e bem cuidado!</p>
 
-      <section>
-        <article>
-          <h3>Ração Megazoo Mistura para Pássaros Silvestres 500g</h3>
-          <img src="https://placehold.co/300x200?text=Racao+Aves" alt="Ração Megazoo Mistura para Pássaros Silvestres 500g">
-          <p>Nutrição completa para pássaros silvestres. A mistura balanceada de sementes e grãos mantém as aves ativas, com plumagem bonita e saudáveis. Ideal para canários, periquitos e outros pássaros.</p>
-          <p>Valor: R$ 24,90</p>
-        </article>
+      <div class="row g-4 mt-3">
 
-        <article>
-          <h3>Gaiola Decorativa com Poleiro e Comedouro Inclusos</h3>
-          <img src="https://placehold.co/300x200?text=Gaiola+Passaro" alt="Gaiola Decorativa com Poleiro e Comedouro Inclusos">
-          <p>Um lar lindo e seguro para o seu pássaro. Feita em metal resistente, vem com poleiro confortável, comedouro e bebedouro inclusos. Fácil de montar e limpar. Seu pássaro vai adorar!</p>
-          <p>Valor: R$ 119,90</p>
-        </article>
-      </section>
+        <div class="col-md-6">
+          <div class="card card-produto h-100">
+            <img src="images/racao-aves.svg"
+                 alt="Embalagem verde da Ração Megazoo Mistura para Pássaros Silvestres 500g com ilustração de pássaro"
+                 width="300" height="200">
+            <div class="card-body">
+              <h2 class="card-title h5">Ração Megazoo Mistura para Pássaros Silvestres 500g</h2>
+              <p class="card-text">Nutrição completa para pássaros silvestres. A mistura balanceada de sementes e grãos mantém as aves ativas e com plumagem bonita.</p>
+              <p class="preco-produto">R$ 24,90</p>
+              <a href="agendamento.html" class="btn btn-petshop" aria-label="Agendar entrega da Ração Megazoo">Agendar entrega</a>
+            </div>
+          </div>
+        </div>
 
-      <p><a href="index.html">← Voltar para Home</a></p>
+        <div class="col-md-6">
+          <div class="card card-produto h-100">
+            <img src="images/gaiola.svg"
+                 alt="Gaiola decorativa dourada com poleiro, comedouro e bebedouro inclusos, com pássaro verde no interior"
+                 width="300" height="200">
+            <div class="card-body">
+              <h2 class="card-title h5">Gaiola Decorativa com Poleiro e Comedouro Inclusos</h2>
+              <p class="card-text">Um lar lindo e seguro para o seu pássaro. Feita em metal resistente, vem com poleiro confortável, comedouro e bebedouro inclusos.</p>
+              <p class="preco-produto">R$ 119,90</p>
+              <a href="agendamento.html" class="btn btn-petshop" aria-label="Agendar entrega da Gaiola Decorativa">Agendar entrega</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="mt-4">
+        <a href="index.html" class="btn btn-outline-secondary">
+          <i class="bi bi-arrow-left" aria-hidden="true"></i> Voltar para Home
+        </a>
+      </div>
     </main>
 
-    <!-- FOOTER -->
-    <footer>
-      <p>© 2026 Snow e Zoey Petshop. Todos os direitos reservados.</p>
-      <p>Desenvolvido por Emerson Ricardo da Silva Nobles, estudante de Análise e Desenvolvimento de Sistemas na PUC.</p>
-      <address>contato@snowezoey.com.br | Tel: (11) 98888-0000 | Rua dos Bichinhos, 15, São Paulo, SP</address>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="caes.html">Cães</a></li>
-          <li><a href="gatos.html">Gatos</a></li>
-          <li><a href="aves.html">Aves</a></li>
-          <li><a href="servicos.html">Serviços</a></li>
-          <li><a href="ajuda.html">Ajuda</a></li>
-        </ul>
-      </nav>
+    <footer aria-label="Rodapé do site">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <h5>Snow e Zoey Petshop</h5>
+            <p>Cuidando do seu pet com amor e dedicação.</p>
+          </div>
+          <div class="col-md-4 mb-3">
+            <h5>Navegação</h5>
+            <nav aria-label="Links do rodapé">
+              <ul class="list-unstyled">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="caes.html">Cães</a></li>
+                <li><a href="gatos.html">Gatos</a></li>
+                <li><a href="aves.html">Aves</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+                <li><a href="agendamento.html">Agendamento</a></li>
+                <li><a href="ajuda.html">Ajuda</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-md-4 mb-3">
+            <h5>Contato</h5>
+            <address>
+              <a href="mailto:contato@snowezoey.com.br">contato@snowezoey.com.br</a><br>
+              (11) 98888-0000<br>
+              Rua dos Bichinhos, 15 — São Paulo, SP
+            </address>
+          </div>
+        </div>
+        <hr style="border-color:#555;">
+        <p class="text-center mb-0" style="font-size:0.85rem;">
+          © 2026 Snow e Zoey Petshop. Todos os direitos reservados.<br>
+          Desenvolvido por Emerson Ricardo da Silva Nobles — ADS PUC
+        </p>
+      </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
